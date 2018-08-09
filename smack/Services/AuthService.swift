@@ -42,7 +42,7 @@ class AuthService{
         }
     }
     
-    func registerUsewr(email: String, password: String, completion: @escaping CompletionHandler){
+    func registerUser(email: String, password: String, completion: @escaping CompletionHandler){
         
         let lowerCsaeEmail = email.lowercased()
         
