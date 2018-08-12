@@ -13,7 +13,7 @@ typealias CompletionHandler = (_ Success: Bool) -> ()
 //URL Constants
 let BASE_URL = "http://localhost:3005/v1/"
 let URL_ACCOUNT_REGISTER = "\(BASE_URL)account/register"
-let URL_ACCLOUNT_LOGIN = "\(BASE_URL)account/login"
+let URL_ACCOUNT_LOGIN = "\(BASE_URL)account/login"
 let URL_USER_ADD = "\(BASE_URL)user/add"
 
 //Seques
@@ -25,3 +25,8 @@ let UNWIND_TO_CHANNEL = "unwindToChannel"
 let TOKEN_KEY = "token"
 let LOGGED_IN_KEY = "loggedIn"
 let USER_EMAIL = "userEmail"
+
+//Headers
+let HEADER = [
+    "Content-Type": "application/json; charset=utf-8"
+]
